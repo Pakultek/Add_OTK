@@ -2,11 +2,11 @@
 session_start();
 
 // Настройки подключения к БД
-$host = '10.10.3.41';
-$db   = 'TUBOG';
-$user = 'vadim';
-$pass = '1q2w3e4r5t6y';
-$charset = 'utf8mb4';
+$host = 'local'; // Хост
+$db   = 'db_name'; // БД
+$user = 'user'; // Логин
+$pass = 'pass'; // Пароль
+$charset = 'utf8mb4'; // Кодировка
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = array(
